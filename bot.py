@@ -54,7 +54,7 @@ async def pubg(ctx, *args):
             if(pubg_players.count(author) > 1):
                 return await bot.say("Sorry but " + author + " is already in the team")
             else:
-                pubg_players.append(str(author))
+                pubg_players.append(args[1))
                 return await bot.say("You are in! Current List: " + str(pubg_players))
         return
     elif(args[0] == "start"):
