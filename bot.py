@@ -72,7 +72,6 @@ async def pubg(ctx, *args):
                     return await bot.say("You are starting a duo with " + str(pubg_players[i]))
         else:
             return await bot.say("There currently isn't a pubg lobby going on! To create one just get 4 or less people to type !pubg join")
-# For loop for checking if the list is greater than or equal to 4
 
 @bot.command()
 async def stop():
